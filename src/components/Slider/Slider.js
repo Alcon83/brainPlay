@@ -36,7 +36,7 @@ function Slider() {
 
     const handleManualSlide = useCallback((nextSlideIndex) => {
         setAutoSlide(false);
-        setPreviousSlideIndex(currentSlideIndex); // set the previous slide
+        setPreviousSlideIndex(currentSlideIndex); 
         setCurrentSlideIndex(nextSlideIndex);
         setTimeout(() => setAutoSlide(true), 2000);
     }, [currentSlideIndex]);

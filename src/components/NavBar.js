@@ -64,7 +64,7 @@ function NavBar() {
 
   return (
     <Layout>
-    <header className="flex justify-between items-center py-3 md:px-2">
+      <header className="flex justify-between items-center py-3 md:px-2">
         <button
           className="flex-col justify-center items-center hidden md:flex "
           onClick={handleClick}>
@@ -79,15 +79,16 @@ function NavBar() {
               }`}></span>
         </button>
 
-        <nav className="w-full flex justify-between  items-center">
+        <nav className="w-full flex justify-between items-center">
 
-
-
-          <div className="flex items-center text-center justify-between font-medium md:hidden  space-x-5 xl:text-sm">
+       
+          <div className="flex-1 flex justify-start items-center text-center font-medium md:hidden space-x-5 xl:text-sm">
             <CustomLink href="/" title={t("Navbar.Home")} />
             <CustomLink href="/example" title={t("Navbar.Example")} />
           </div>
-          <div className="mx-auto cursor-pointer" onClick={handleLogoClick}>
+
+   
+          <div className="flex-1 flex justify-center cursor-pointer" onClick={handleLogoClick}>
             <Image
               src={isDarkMode ? "/logoDark.png" : "/logoLight.png"}
               alt="Logo"
@@ -96,7 +97,7 @@ function NavBar() {
             />
           </div>
 
-          <div className="flex items-center">
+          <div className="flex-1 flex justify-end items-center">
             <button
               onClick={toggleTheme}
               className={`w-6 h-6 ml-3 flex items-center justify-center rounded-full p-1 ${isDarkMode ? "bg-light text-dark" : "bg-dark text-light"}`}>
