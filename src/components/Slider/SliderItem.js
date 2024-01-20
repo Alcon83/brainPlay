@@ -16,7 +16,7 @@ function SliderItem({ slide, direction, isAnimating, slides, currentSlideIndex }
 
 
     return (
-        <div className='px-16 md:px-4'>
+        <div className='px-16 md:px-1'>
             <div className={`relative  bg-white dark:bg-dark  rounded-lg dark:text-light text-dark overflow-hidden  `}>
 
                 <Image

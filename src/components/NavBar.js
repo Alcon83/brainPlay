@@ -64,7 +64,7 @@ function NavBar() {
 
   return (
     <Layout>
-    <header className="flex justify-between items-center py-3">
+    <header className="flex justify-between items-center py-3 md:px-2">
         <button
           className="flex-col justify-center items-center hidden md:flex "
           onClick={handleClick}>

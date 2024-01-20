@@ -1,6 +1,5 @@
 import Layout from '../components/Layout';
 import Slider from '../components/Slider/Slider';
-import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import FeatureModule from '../components/Home/FeatureModule';
 import NuestraHistoia from '../components/Home/NuestraHistoria';
@@ -13,7 +12,6 @@ function Home() {
                 <FeatureModule />
                 <NuestraHistoia />
             </Layout>
-
         </>
     );
 };

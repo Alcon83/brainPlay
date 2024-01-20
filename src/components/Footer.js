@@ -34,7 +34,7 @@ function Footer() {
 
           <div className=' grid grid-cols-3 py-8 xs:grid-cols-1  text-center '>
 
-          <div>
+            <div>
               <a
                 href="https://maps.app.goo.gl/iF9FK4hLehQGmco36"
 
@@ -72,7 +72,7 @@ function Footer() {
           </section>
           <section className='flex flex-col py-4 items-center justify-center'>
 
-            <div>©Diseño y desarrollo Rafa Gandia, full stack</div>
+            <div>©Diseño y desarrollo por Rafa Gandia, full stack</div>
             <div>©  2023 Brain Play</div>
             <div className='p-4 flex space-x-2 text-center'>
 

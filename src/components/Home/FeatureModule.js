@@ -73,7 +73,7 @@ const FeatureModule = () => {
   const { t } = useTranslation('common');
   return (
     <div className="py-10">
-      <div className="grid grid-cols-4 gap-8 lg:gap-4 md:grid-cols-2">
+      <div className="grid grid-cols-4 gap-8 md:gap-2 lg:gap-4 md:grid-cols-2">
         {features.map((feature, index) => (
           <FeatureCard key={index} {...feature} />
         ))}
