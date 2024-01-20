@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'next-i18next';
-import { MdFlashOn} from 'react-icons/md';
+import { MdFlashOn } from 'react-icons/md';
 import { FaPuzzlePiece } from "react-icons/fa6";
 import { GiBrainTentacle } from "react-icons/gi";
 import { TbEyePin } from "react-icons/tb";
@@ -73,7 +73,7 @@ const FeatureModule = () => {
   const { t } = useTranslation('common');
   return (
     <div className="py-10">
-      <h2 className="text-3xl font-bold text-center  mb-12 ">{t('homepage.FeatureModule.title')}</h2>
+      <h2 className="text-3xl md:text-lg selection:font-bold text-center  mb-12 ">{t('homepage.FeatureModule.title')}</h2>
       <div className="grid grid-cols-4 gap-8 lg:gap-4 md:grid-cols-2">
         {features.map((feature, index) => (
           <FeatureCard key={index} {...feature} />
