@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root { 
+       
+  --color-primary: #931e30;    
+  --color-secondary: #681521;  
+  --color-tertiary: #ffaa01;
+}
+h1 {
+  font-size: 2em; /* 32px si el tamaño de fuente base es 16px */
+  margin-bottom: 0.5em;
+  
+}
+
+h2 {
+  font-size: 1.5em; /* 24px si el tamaño de fuente base es 16px */
+  margin-bottom: 0.5em;
+ 
+}
+
+h3 {
+  font-size: 1.17em; /* Aproximadamente 19px si el tamaño de fuente base es 16px */
+  margin-bottom: 0.5em;
+ 
+}
+
+h4 {
+  font-size: 1em; /* 16px si el tamaño de fuente base es 16px */
+  margin-bottom: 0.5em;
+ 
+}
+
+p {
+  margin-bottom: 0.5em;
+}
+
+
+
+
+.ancho {
+  max-width: 1920px;
+}
+.fondoVideo {
+  background-color: #000000; 
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+

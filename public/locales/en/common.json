@@ -1,0 +1,55 @@
+{
+  "Home": "Home",
+  "Company": "Company",
+  "Navbar": {
+    "Home": "Home",
+    "Example" : "Example"
+   
+  },
+  "homepage": {
+    
+    "OurStory": {
+      "title": "BrainPlay: Fun that Awakens Your Brain!",
+      "description": {
+      "p1": "Dive into a world where playing means growing! Our games are a feast of fun and learning, perfect for both kids and adults. Who said training your brain had to be boring? Here, every click is a laugh and a step towards a more agile and brilliant mind. Improve your memory while playing, sharpen your attention with challenges, and become a master of puzzles! Join our adventure of joy and knowledge, where each game is an explosion of smart fun. Get ready to smile, learn, and be amazed!"
+      }
+    },
+    "FeatureModule": {
+      "title": "GAMES FOR TRAINING THE MIND",
+      "m1": "Visual Memory",
+      "d1": "Improve visual memory by remembering complex patterns under time pressure.",
+      "m2": "Concentration",
+      "d2": "Challenge concentration and strategy by planning actions in challenging sequences.",
+      "m3": "Quick Reflexes",
+      "d3": "Quick reaction game to improve mental agility and accuracy.",
+      "m4": "Cognitive Puzzle",
+      "d4": "Promote mental flexibility and problem-solving with changing puzzles."
+    }
+  },
+  "company": {
+    "title": "About us...",
+    "description": {
+      "p1": "<strong>TAM ENERGY, S.L.</strong> is a division of the company TAM (<strong>TECNOLOGIA APLICADA A LA MAQUINARIA S.L.</strong>). Since 1992, we have specialized in the manufacturing and automation of machinery, with a particular emphasis on renewable energy, thereby strengthening our SOLAR division. We are deeply committed to R&D, designing our own systems that stand for innovation and efficiency, always with an eye towards international expansion of our products.",
+  
+      "p2": "We are pioneers in using cutting-edge technology for the manufacturing of ground screws. We have a multidisciplinary team of engineers who, backed by their extensive experience, are in charge of designing and refining our solutions.",
+  
+      "p3": "Our hallmark is commitment and excellence, offering avant-garde solutions. When you choose us, we embrace your challenges and aspirations."
+  }
+  
+  },
+  "brainChallenge": {
+    "title": "Math Challenge: Numeric Adventure",
+    "subTitle":"Discover the power of the human brain!",
+    "description": "Embark on an exciting adventure where numbers come to life. This game is designed to enhance your math skills in a fun and challenging way."
+},
+
+  "404": {
+    "title": "Sorry, but the page you are looking for has not been found."
+  },
+  
+ 
+  "error404": {
+    "message": "Sorry, but the page you are looking for has not been found.",
+    "return": "Return"
+  }
+}
