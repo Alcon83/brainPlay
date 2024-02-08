@@ -68,24 +68,24 @@ function NavBar() {
 
 
         <nav className="w-full flex justify-between items-center">
-        <div className="flex-1  hidden md:flex">
-<button
-        
-        className="flex-col justify-center items-center hidden md:flex "
-        onClick={handleClick}>
-        <span
-          className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
-            }`}></span>
-        <span
-          className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? "opacity-0" : "opacity-100"
-            }`}></span>
-        <span
-          className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
-            }`}></span>
-      </button>
+          <div className="flex-1  hidden md:flex">
+            <button
 
-</div>
-       
+              className="flex-col justify-center items-center hidden md:flex "
+              onClick={handleClick}>
+              <span
+                className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
+                  }`}></span>
+              <span
+                className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? "opacity-0" : "opacity-100"
+                  }`}></span>
+              <span
+                className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
+                  }`}></span>
+            </button>
+
+          </div>
+
           <div className="flex-1 flex justify-start items-center text-center font-medium md:hidden space-x-5 xl:text-sm">
             <CustomLink href="/" title={t("Navbar.Home")} />
             <CustomLink href="/example" title={t("Navbar.Example")} />
@@ -116,7 +116,7 @@ function NavBar() {
               onChange={(e) => handleLanguageChange(e.target.value)}
               value={selectedLanguage}
               id="languageSelect">
-              <option value={"es"}>Español</option>
+              <option value={"es"}>Español2</option>
               <option value={"en"}>Inglés</option>
             </select>
           </div>
